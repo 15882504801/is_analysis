@@ -79,9 +79,9 @@
 
 ## 2. 界面设计
 ## 2.1. 借书界面设计
-![cx](cx.png)；
-![jieyue](jieyue.png)；
-![queren](queren.png)
+![cx](cx.PNG)；
+![jieyue](jieyue.PNG)；
+![queren](queren.PNG)
 
 <a href="ui">UI文件夹<a>
 - 用例图参见：借书用例

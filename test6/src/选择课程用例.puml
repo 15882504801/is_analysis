@@ -1,0 +1,10 @@
+@startuml
+title 基于GitHub的实验管理平台--选择课程用例的顺序图
+actor users
+alt 如果users是老师
+    users -> 课程
+	课程 -> 学生:老师挑选选择了该课程的学生
+else 如果users是学生
+    users -> 课程:直接选择课程，等待老师选择
+end
+@enduml

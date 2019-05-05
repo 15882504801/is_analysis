@@ -1,0 +1,15 @@
+@startuml
+title 基于GitHub的实验管理平台--学生列表用例的顺序图
+actor users
+users -> 课程: 查看所有课程列表
+alt 如果users是老师
+    课程 -> 学生
+	学生 -> 成绩
+	成绩 -> 实验
+	实验 --> users:每个学生的信息、及每个实验的成绩
+else 如果users是学生
+    学生 --> users:每个学生的信息
+else 如果未登陆
+    课程 -> users:每个课程的信息
+end
+@enduml

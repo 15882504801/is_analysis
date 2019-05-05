@@ -1,0 +1,6 @@
+@startuml
+title 基于GitHub的实验管理平台--修改用户信息用例的顺序图
+actor users
+users -> 系统
+系统 -> users: 修改用户信息
+@enduml
